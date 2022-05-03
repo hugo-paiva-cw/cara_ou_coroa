@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
 class Result extends StatefulWidget {
-  String value;
+  Option value;
 
   Result(this.value, {Key? key}) : super(key: key);
 
@@ -17,7 +17,7 @@ class _ResultState extends State<Result> {
   Widget build(BuildContext context) {
 
     String _imagePath;
-    if (widget.value == 'head') {
+    if (widget.value == Option.head) {
       _imagePath = 'assets/images/moeda_cara.png';
     } else {
       _imagePath = 'assets/images/moeda_coroa.png';

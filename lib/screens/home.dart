@@ -10,10 +10,15 @@ class Home extends StatefulWidget {
   State<Home> createState() => _HomeState();
 }
 
+enum Option {
+  head,
+  tails
+}
+
 class _HomeState extends State<Home> {
 
   void _showResult () {
-    var options = ['head', 'tails'];
+    var options = [Option.head, Option.tails];
     var number = Random().nextInt( options.length );
     var result = options[number];
 
