@@ -1,0 +1,4 @@
+enum Option {
+  head,
+  tails
+}

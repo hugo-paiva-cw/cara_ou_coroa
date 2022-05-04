@@ -1,18 +1,14 @@
+import 'package:flutter/material.dart';
 import 'dart:math';
 
 import 'package:cara_ou_coroa/screens/result_screen.dart';
-import 'package:flutter/material.dart';
+import 'package:cara_ou_coroa/models/option.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
-}
-
-enum Option {
-  head,
-  tails
 }
 
 class _HomeState extends State<Home> {

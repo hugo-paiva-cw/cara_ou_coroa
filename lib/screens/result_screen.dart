@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:cara_ou_coroa/models/option.dart';
 import 'home.dart';
 
 class Result extends StatefulWidget {
